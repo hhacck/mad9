@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Github</title>
+        <link rel="manifest" href="manifest.json" />
+        <link rel="icon" type="image/x-icon" href="asset/img1.png" />
+    </head>
+    <body>
+    
+        <h2>Fetch User Details From Github API</h2>
+        <script>
+
+            if('serviceWorker' in navigator) {
+
+                navigator.serviceWorker.register("sw.js")
+                .then((e) => {
+                console.log("registered");
+            });
+            } else {
+                console.log("browser does not support service worker");
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,20 @@
+{
+    "name": "Fetch Github Details",
+    "short_name": "API Fetch",
+    "display": "standalone",
+    "start_url": "/",
+    "id": "/",
+    "Orientation": "portrait_primary",
+    "description": "Get user details from Github using it's API",
+    "background_color": "#AA0000",
+    "theme_color": "#CC0000",
+    "icons" : [
+        
+        {
+            "src" :"asset/img1.png",
+            "type" : "image/png",
+            "sizes" : "96x96"
+        }
+    ]
+    
+}
